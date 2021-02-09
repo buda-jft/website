@@ -1,34 +1,90 @@
-nav {
-    border-bottom: 1px solid black;
+* {
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.crumbs ol {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.crumb {
-    display: inline-block;
-}
-
-.crumb a::after {
-    display: inline-block;
-    color: #000;
-    /* content: '>'; */
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
-}
-
-.first-section {
-    background-color: #4c90d9;
+.part-1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #85a4c5; /* subject to change */
     text-align: center;
+}
+
+.navs {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px; 
+}
+
+.navs ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navs ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.mid-text {
+    margin-top: 10%;
+}
+
+/* .navs a {
+    text-decoration: none;
+    font-size: 20px;
+} */
+
+.navs-menu li a{
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.part-2 {
+    font-size: 20px;
 }
 
 .second-header {
     text-align: center;
+    color: grey;
 }
 
 .second-title {
     text-align: center;
+}
+
+#f-p {
+    color: blue;
+}
+
+.part-3 {
+    /* this is the youtube part */
+    background-image: url("https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-size: cover;
+    height:500px;
+    width:auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.bg-yt {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(250, 250, 250);
+text-shadow: 2px 2px 5px black;
+
+}
+
+/* .bg-yt h4 {
+    text-shadow: black;
+} */
+
+h4 {
+    text-shadow: 2px 2px 5px black;
 }
